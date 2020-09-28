@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tugas Pemrosesan Data</title>
 </head>
+
 <body>
-    <form action="http://localhost/pemrogramanweb/proses.php" method="post">
-     
+
+    <form action="http://localhost/phpdasar/phpkuliah/tugasprosesdata/proses.php" method="get">
+        Bilangan 1 &nbsp; <input type="text" name="bil1">
+        &nbsp;&nbsp;<select name="operasi">
+            <option value="tambah">+</option>
+            <option value="kurang">-</option>
+            <option value="bagi">/</option>
+            <option value="kali">*</option>
+        </select>
+        &nbsp;&nbsp; Bilangan 2 &nbsp; <input type="text" name="bil2"><br><br>
+
+        <input type="submit" name="submit" value="Hitung">
+
     </form>
+
 </body>
+
 </html>
